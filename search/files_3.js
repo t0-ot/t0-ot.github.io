@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['snake_2eh_0',['snake.h',['../snake_8h.html',1,'']]],
-  ['snake_5flogic_2eh_1',['snake_logic.h',['../snake__logic_8h.html',1,'']]],
-  ['snake_5frender_2eh_2',['snake_render.h',['../snake__render_8h.html',1,'']]]
+  ['main_2ec_0',['main.c',['../main_8c.html',1,'']]],
+  ['menu_2ec_1',['menu.c',['../menu_8c.html',1,'']]],
+  ['menu_2eh_2',['menu.h',['../menu_8h.html',1,'']]]
 ];

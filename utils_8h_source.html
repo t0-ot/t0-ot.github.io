@@ -113,29 +113,38 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('utils_8h_sourc
   <div class="headertitle"><div class="title">utils.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef UTILS_H</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define UTILS_H</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;engine/core/game_types.h&quot;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keywordtype">float</span> ease(<span class="keywordtype">float</span> time, <span class="keywordtype">float</span> startValue, <span class="keywordtype">float</span> change, <span class="keywordtype">float</span> duration);</div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keywordtype">int</span> objectPointResize(<a class="code hl_struct" href="structPoint__list.html">Point_list</a> *data);</div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keywordtype">int</span> calc_point_dist(<a class="code hl_struct" href="structPoint.html">Point</a> *current_coord, <a class="code hl_struct" href="structPoint.html">Point</a> *target_coord);</div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keywordtype">int</span> get_centered_x(<span class="keywordtype">int</span> left_wall, <span class="keywordtype">int</span> right_wall, <span class="keywordtype">int</span> text_length);</div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keywordtype">int</span> get_centered_y(<span class="keywordtype">int</span> top_wall, <span class="keywordtype">int</span> bottom_wall, <span class="keywordtype">int</span> text_length);</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keywordtype">int</span> collisionCheckOne(<a class="code hl_struct" href="structPoint__list.html">Point_list</a> *objView1, <a class="code hl_struct" href="structPoint__list.html">Point_list</a> *objView2, <span class="keywordtype">int</span> countFrom, <span class="keywordtype">int</span> checkIndexObj2);</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keywordtype">int</span> collision_check_both(<a class="code hl_struct" href="structPoint__list.html">Point_list</a> *objView1, <a class="code hl_struct" href="structPoint__list.html">Point_list</a> *objView2, <span class="keywordtype">int</span> countFrom);</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#endif </span><span class="comment">// UTILS_H</span></div>
-<div class="ttc" id="astructPoint__list_html"><div class="ttname"><a href="structPoint__list.html">Point_list</a></div><div class="ttdoc">Stores a dynamically allocated collection of points.</div><div class="ttdef"><b>Definition</b> game_types.h:18</div></div>
-<div class="ttc" id="astructPoint_html"><div class="ttname"><a href="structPoint.html">Point</a></div><div class="ttdoc">Represents a two-dimensional position on the game grid.</div><div class="ttdef"><b>Definition</b> game_types.h:10</div></div>
+<a href="utils_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#ifndef UTILS_H</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#define UTILS_H</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &quot;<a class="code" href="game__types_8h.html">engine/core/game_types.h</a>&quot;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="keywordtype">float</span> ease(<span class="keywordtype">float</span> time, <span class="keywordtype">float</span> startValue, <span class="keywordtype">float</span> change, <span class="keywordtype">float</span> duration);</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="keywordtype">int</span> objectPointResize(<a class="code hl_struct" href="structPoint__list.html">Point_list</a> *data);</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span></div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="keywordtype">int</span> calc_point_dist(<a class="code hl_struct" href="structPoint.html">Point</a> *current_coord, <a class="code hl_struct" href="structPoint.html">Point</a> *target_coord);</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span></div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><span class="keywordtype">int</span> get_centered_x(<span class="keywordtype">int</span> left_wall, <span class="keywordtype">int</span> right_wall, <span class="keywordtype">int</span> text_length);</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span></div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span><span class="keywordtype">int</span> get_centered_y(<span class="keywordtype">int</span> top_wall, <span class="keywordtype">int</span> bottom_wall, <span class="keywordtype">int</span> text_length);</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span></div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span><span class="keywordtype">int</span> collisionCheckOne(<a class="code hl_struct" href="structPoint__list.html">Point_list</a> *objView1, <a class="code hl_struct" href="structPoint__list.html">Point_list</a> *objView2, <span class="keywordtype">int</span> countFrom, <span class="keywordtype">int</span> checkIndexObj2);</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span></div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span><span class="keywordtype">int</span> collision_check_both(<a class="code hl_struct" href="structPoint__list.html">Point_list</a> *objView1, <a class="code hl_struct" href="structPoint__list.html">Point_list</a> *objView2, <span class="keywordtype">int</span> countFrom);</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span> </div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span><span class="preprocessor">#endif </span><span class="comment">// UTILS_H</span></div>
+<div class="ttc" id="agame__types_8h_html"><div class="ttname"><a href="game__types_8h.html">game_types.h</a></div><div class="ttdoc">Defines shared data types used throughout the game modules.</div></div>
+<div class="ttc" id="astructPoint__list_html"><div class="ttname"><a href="structPoint__list.html">Point_list</a></div><div class="ttdoc">Stores a dynamically allocated collection of points.</div><div class="ttdef"><b>Definition</b> game_types.h:26</div></div>
+<div class="ttc" id="astructPoint_html"><div class="ttname"><a href="structPoint.html">Point</a></div><div class="ttdoc">Represents a two-dimensional position on the game grid.</div><div class="ttdef"><b>Definition</b> game_types.h:18</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><b>include</b></li><li class="navelem"><b>engine</b></li><li class="navelem"><b>utils.h</b></li>
+    <li class="navelem"><b>include</b></li><li class="navelem"><b>engine</b></li><li class="navelem"><a href="utils_8h.html">utils.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.18.0 </li>
   </ul>
 </div>

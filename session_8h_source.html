@@ -113,45 +113,49 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('session_8h_sou
   <div class="headertitle"><div class="title">session.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef SESSION_H</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define SESSION_H</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;stdbool.h&gt;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;engine/core/game_module.h&quot;</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span></div>
-<div class="foldopen" id="foldopen00014" data-start="{" data-end="};">
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="structGameSession.html">   14</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span>{</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="structGameSession.html#abce617a92e910930b92cb6015780672c">   15</a></span>    <span class="keyword">const</span> <a class="code hl_struct" href="structGameModule.html">GameModule</a> *<a class="code hl_variable" href="structGameSession.html#abce617a92e910930b92cb6015780672c">current_module</a>; </div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="structGameSession.html#ad3f729b2579eaa129e4e65b84cea0c0e">   16</a></span>    <span class="keywordtype">void</span> *<a class="code hl_variable" href="structGameSession.html#ad3f729b2579eaa129e4e65b84cea0c0e">current_state</a>;              </div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="structGameSession.html#a3b4aa109c0fa97125ab040563cc0ea8b">   17</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="structGameSession.html#a3b4aa109c0fa97125ab040563cc0ea8b">is_running</a>;                  </div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>} <a class="code hl_struct" href="structGameSession.html">GameSession</a>;</div>
+<a href="session_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#ifndef SESSION_H</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#define SESSION_H</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &lt;stdbool.h&gt;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &quot;<a class="code" href="game__module_8h.html">engine/core/game_module.h</a>&quot;</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span></div>
+<div class="foldopen" id="foldopen00022" data-start="{" data-end="};">
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="structGameSession.html">   22</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span>{</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="structGameSession.html#abce617a92e910930b92cb6015780672c">   23</a></span>    <span class="keyword">const</span> <a class="code hl_struct" href="structGameModule.html">GameModule</a> *<a class="code hl_variable" href="structGameSession.html#abce617a92e910930b92cb6015780672c">current_module</a>; </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="structGameSession.html#ad3f729b2579eaa129e4e65b84cea0c0e">   24</a></span>    <span class="keywordtype">void</span> *<a class="code hl_variable" href="structGameSession.html#ad3f729b2579eaa129e4e65b84cea0c0e">current_state</a>;              </div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="structGameSession.html#a3b4aa109c0fa97125ab040563cc0ea8b">   25</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="structGameSession.html#a3b4aa109c0fa97125ab040563cc0ea8b">is_running</a>;                  </div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>} <a class="code hl_struct" href="structGameSession.html">GameSession</a>;</div>
 </div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span></div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="keywordtype">void</span> session_init(<a class="code hl_struct" href="structGameSession.html">GameSession</a> *session);</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span></div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="keywordtype">bool</span> session_set_module(</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <a class="code hl_struct" href="structGameSession.html">GameSession</a> *session,</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <span class="keyword">const</span> <a class="code hl_struct" href="structGameModule.html">GameModule</a> *module</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>);</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span></div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>ModuleAction session_run(<a class="code hl_struct" href="structGameSession.html">GameSession</a> *session);</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span></div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="keywordtype">void</span> session_init(<a class="code hl_struct" href="structGameSession.html">GameSession</a> *session);</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span></div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="keywordtype">bool</span> session_set_module(</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <a class="code hl_struct" href="structGameSession.html">GameSession</a> *session,</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <span class="keyword">const</span> <a class="code hl_struct" href="structGameModule.html">GameModule</a> *module</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>);</div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span></div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><span class="keywordtype">void</span> session_cleanup(<a class="code hl_struct" href="structGameSession.html">GameSession</a> *session);</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="preprocessor">#endif </span><span class="comment">// SESSION_H</span></div>
-<div class="ttc" id="astructGameModule_html"><div class="ttname"><a href="structGameModule.html">GameModule</a></div><div class="ttdoc">Defines the lifecycle operations and state requirements of a game module.</div><div class="ttdef"><b>Definition</b> game_module.h:22</div></div>
-<div class="ttc" id="astructGameSession_html"><div class="ttname"><a href="structGameSession.html">GameSession</a></div><div class="ttdoc">Holds the state of the currently active game session.</div><div class="ttdef"><b>Definition</b> session.h:14</div></div>
-<div class="ttc" id="astructGameSession_html_a3b4aa109c0fa97125ab040563cc0ea8b"><div class="ttname"><a href="structGameSession.html#a3b4aa109c0fa97125ab040563cc0ea8b">GameSession::is_running</a></div><div class="ttdeci">bool is_running</div><div class="ttdef"><b>Definition</b> session.h:17</div></div>
-<div class="ttc" id="astructGameSession_html_abce617a92e910930b92cb6015780672c"><div class="ttname"><a href="structGameSession.html#abce617a92e910930b92cb6015780672c">GameSession::current_module</a></div><div class="ttdeci">const GameModule * current_module</div><div class="ttdef"><b>Definition</b> session.h:15</div></div>
-<div class="ttc" id="astructGameSession_html_ad3f729b2579eaa129e4e65b84cea0c0e"><div class="ttname"><a href="structGameSession.html#ad3f729b2579eaa129e4e65b84cea0c0e">GameSession::current_state</a></div><div class="ttdeci">void * current_state</div><div class="ttdef"><b>Definition</b> session.h:16</div></div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><a class="code hl_enumeration" href="game__module_8h.html#a6c5f12a350cbff305a5ccc16b32c876f">ModuleAction</a> session_run(<a class="code hl_struct" href="structGameSession.html">GameSession</a> *session);</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span></div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span><span class="keywordtype">void</span> session_cleanup(<a class="code hl_struct" href="structGameSession.html">GameSession</a> *session);</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span><span class="preprocessor">#endif </span><span class="comment">// SESSION_H</span></div>
+<div class="ttc" id="agame__module_8h_html"><div class="ttname"><a href="game__module_8h.html">game_module.h</a></div><div class="ttdoc">Declares the game module interface.</div></div>
+<div class="ttc" id="agame__module_8h_html_a6c5f12a350cbff305a5ccc16b32c876f"><div class="ttname"><a href="game__module_8h.html#a6c5f12a350cbff305a5ccc16b32c876f">ModuleAction</a></div><div class="ttdeci">ModuleAction</div><div class="ttdoc">Describes the result of a game module&#39;s update operation.</div><div class="ttdef"><b>Definition</b> game_module.h:18</div></div>
+<div class="ttc" id="astructGameModule_html"><div class="ttname"><a href="structGameModule.html">GameModule</a></div><div class="ttdoc">Defines the lifecycle operations and state requirements of a game module.</div><div class="ttdef"><b>Definition</b> game_module.h:30</div></div>
+<div class="ttc" id="astructGameSession_html"><div class="ttname"><a href="structGameSession.html">GameSession</a></div><div class="ttdoc">Holds the state of the currently active game session.</div><div class="ttdef"><b>Definition</b> session.h:22</div></div>
+<div class="ttc" id="astructGameSession_html_a3b4aa109c0fa97125ab040563cc0ea8b"><div class="ttname"><a href="structGameSession.html#a3b4aa109c0fa97125ab040563cc0ea8b">GameSession::is_running</a></div><div class="ttdeci">bool is_running</div><div class="ttdef"><b>Definition</b> session.h:25</div></div>
+<div class="ttc" id="astructGameSession_html_abce617a92e910930b92cb6015780672c"><div class="ttname"><a href="structGameSession.html#abce617a92e910930b92cb6015780672c">GameSession::current_module</a></div><div class="ttdeci">const GameModule * current_module</div><div class="ttdef"><b>Definition</b> session.h:23</div></div>
+<div class="ttc" id="astructGameSession_html_ad3f729b2579eaa129e4e65b84cea0c0e"><div class="ttname"><a href="structGameSession.html#ad3f729b2579eaa129e4e65b84cea0c0e">GameSession::current_state</a></div><div class="ttdeci">void * current_state</div><div class="ttdef"><b>Definition</b> session.h:24</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><b>include</b></li><li class="navelem"><b>engine</b></li><li class="navelem"><b>session.h</b></li>
+    <li class="navelem"><b>include</b></li><li class="navelem"><b>engine</b></li><li class="navelem"><a href="session_8h.html">session.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.18.0 </li>
   </ul>
 </div>

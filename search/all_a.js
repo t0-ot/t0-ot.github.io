@@ -20,8 +20,12 @@ var searchData=
   ['menuconfig_17',['MenuConfig',['../structMenuConfig.html',1,'']]],
   ['menuruntime_18',['MenuRuntime',['../structMenuRuntime.html',1,'']]],
   ['module_19',['module',['../structGame__Entry.html#acb40e3e58226a444552de3314b0d86ff',1,'Game_Entry']]],
-  ['module_5fname_20',['MODULE_NAME',['../menu_8c.html#a14ded244c47bbba850a8a4be6d16c7e3',1,'menu.c']]],
-  ['move_5fentity_5fsegments_21',['move_entity_segments',['../entity_8h.html#ab24332f6adea38d2a31c8b73b34eb2d0',1,'entity.c']]],
-  ['move_5finterval_22',['move_interval',['../structsnake__runtime.html#a39459b2d812abbeb947bc3008b25556c',1,'snake_runtime::move_interval'],['../structtron__runtime.html#a44280ca674c3159c1c4cc5b2afcc3797',1,'tron_runtime::move_interval']]],
-  ['move_5ftimer_23',['move_timer',['../structsnake__runtime.html#abbc885e6e06fd3011cb7088d8ca72013',1,'snake_runtime::move_timer'],['../structtron__runtime.html#a22dfd3ccb8e108da454d40f7d5de1a69',1,'tron_runtime::move_timer']]]
+  ['module_5fcontinue_20',['MODULE_CONTINUE',['../game__module_8h.html#a6c5f12a350cbff305a5ccc16b32c876faff0f328ab83057e066078f4bfb3c24cc',1,'game_module.h']]],
+  ['module_5ffinished_21',['MODULE_FINISHED',['../game__module_8h.html#a6c5f12a350cbff305a5ccc16b32c876faf137c21bdb523edf5993818914c76002',1,'game_module.h']]],
+  ['module_5fname_22',['MODULE_NAME',['../menu_8c.html#a14ded244c47bbba850a8a4be6d16c7e3',1,'menu.c']]],
+  ['module_5fquit_23',['MODULE_QUIT',['../game__module_8h.html#a6c5f12a350cbff305a5ccc16b32c876fa820f747c78923bf8efa6b449da695536',1,'game_module.h']]],
+  ['moduleaction_24',['ModuleAction',['../game__module_8h.html#a6c5f12a350cbff305a5ccc16b32c876f',1,'game_module.h']]],
+  ['move_5fentity_5fsegments_25',['move_entity_segments',['../entity_8h.html#ab24332f6adea38d2a31c8b73b34eb2d0',1,'entity.c']]],
+  ['move_5finterval_26',['move_interval',['../structsnake__runtime.html#a39459b2d812abbeb947bc3008b25556c',1,'snake_runtime::move_interval'],['../structtron__runtime.html#a44280ca674c3159c1c4cc5b2afcc3797',1,'tron_runtime::move_interval']]],
+  ['move_5ftimer_27',['move_timer',['../structsnake__runtime.html#abbc885e6e06fd3011cb7088d8ca72013',1,'snake_runtime::move_timer'],['../structtron__runtime.html#a22dfd3ccb8e108da454d40f7d5de1a69',1,'tron_runtime::move_timer']]]
 ];
