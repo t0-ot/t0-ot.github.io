@@ -1,8 +1,9 @@
 var searchData=
 [
-  ['init_0',['init',['../structGameModule.html#a13183ccc3ced60540f6ba5b455f50080',1,'GameModule']]],
-  ['input_5fcooldown_1',['input_cooldown',['../structMenuRuntime.html#a2225b52d2c2702bca4afd0d0f40099da',1,'MenuRuntime']]],
-  ['intro_5ftimer_2',['intro_timer',['../structtron__runtime.html#ac124867702b197c67aaa48c3bcfbd0d1',1,'tron_runtime']]],
-  ['is_5fanimating_5fout_3',['is_animating_out',['../structMenuRuntime.html#a99ed6bcda6847e8ab34cfc63c86b017c',1,'MenuRuntime']]],
-  ['is_5frunning_4',['is_running',['../structGameSession.html#a3b4aa109c0fa97125ab040563cc0ea8b',1,'GameSession']]]
+  ['last_5fdir_5finput_0',['last_dir_input',['../structtron__runtime.html#aef9a38d43e810570b02959cb8974ed71',1,'tron_runtime']]],
+  ['lastdirinput_1',['lastDirInput',['../structsnake__runtime.html#a0bde7e257f790694583c408b1ef37e78',1,'snake_runtime']]],
+  ['left_2',['left',['../structGameInput.html#aea33790ecff0def5b04aae5b90e2ae3a',1,'GameInput']]],
+  ['level_3',['level',['../structtron__runtime.html#a7494e9653851d9e0174f0038b3dba8c1',1,'tron_runtime']]],
+  ['level_5fnames_4',['level_names',['../tron__internal_8h.html#a6ee99f12766d97f932da55d2232f5cf5',1,'tron_internal.h']]],
+  ['level_5fstarting_5',['level_starting',['../structtron__runtime.html#a3c2bb5039e3e67fd82c1eb95d4ab5f29',1,'tron_runtime']]]
 ];

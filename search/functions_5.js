@@ -4,5 +4,7 @@ var searchData=
   ['handledeath_1',['handleDeath',['../snake__logic_8h.html#a22042397fcbed12742b0796dee5ff7d5',1,'snake_logic.c']]],
   ['handlefruitcollision_2',['handleFruitCollision',['../snake__logic_8h.html#a482f2e83b1cca599f7c6feaea09bcb41',1,'snake_logic.c']]],
   ['handlemilestonefruit_3',['handleMilestoneFruit',['../snake__logic_8h.html#af86497956db720e919fbf72909f7ccd1',1,'snake_logic.c']]],
-  ['hiscorecounter_4',['hiScoreCounter',['../snake__logic_8h.html#addb3389661b458887b3022e10a4232dd',1,'snake_logic.c']]]
+  ['highscore_5fload_4',['highscore_load',['../highscore_8h.html#a0acab8305fe4b97a16688b5550965f54',1,'highscore.c']]],
+  ['highscore_5fsave_5',['highscore_save',['../highscore_8h.html#aebc604e7a9ef040042975dfe00829ac3',1,'highscore.c']]],
+  ['hiscorecounter_6',['hiScoreCounter',['../snake__logic_8h.html#addb3389661b458887b3022e10a4232dd',1,'snake_logic.c']]]
 ];

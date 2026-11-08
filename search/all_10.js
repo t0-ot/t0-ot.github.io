@@ -18,5 +18,7 @@ var searchData=
   ['snake_5frender_5fgame_15',['snake_render_game',['../snake__render_8h.html#aa464eca79a4cf0bccab55c10e8878db5',1,'snake_render.c']]],
   ['snake_5fruntime_16',['snake_runtime',['../structsnake__runtime.html',1,'']]],
   ['spawnfruit_17',['spawnFruit',['../snake__logic_8h.html#a84b5d9d233ae077747fda23eeda9fc0c',1,'snake_logic.c']]],
-  ['state_5fsize_18',['state_size',['../structGameModule.html#af7e9e026055091a33901130fd743dc27',1,'GameModule']]]
+  ['state_5fsize_18',['state_size',['../structGameModule.html#af7e9e026055091a33901130fd743dc27',1,'GameModule']]],
+  ['storage_5fpath_2eh_19',['storage_path.h',['../storage__path_8h.html',1,'']]],
+  ['storage_5fpath_5finit_20',['storage_path_init',['../storage__path_8h.html#a5d3803f449730e82990045a81613b014',1,'storage_path.c']]]
 ];

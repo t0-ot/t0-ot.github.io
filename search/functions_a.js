@@ -6,5 +6,6 @@ var searchData=
   ['session_5fset_5fmodule_3',['session_set_module',['../session_8h.html#a2917c582052ce966157719c1d4f0398a',1,'session.c']]],
   ['shift_5fentity_5fsegments_4',['shift_entity_segments',['../entity_8h.html#af14fe6a8807fa5a5a10e6b6beb59f06a',1,'entity.c']]],
   ['snake_5frender_5fgame_5',['snake_render_game',['../snake__render_8h.html#aa464eca79a4cf0bccab55c10e8878db5',1,'snake_render.c']]],
-  ['spawnfruit_6',['spawnFruit',['../snake__logic_8h.html#a84b5d9d233ae077747fda23eeda9fc0c',1,'snake_logic.c']]]
+  ['spawnfruit_6',['spawnFruit',['../snake__logic_8h.html#a84b5d9d233ae077747fda23eeda9fc0c',1,'snake_logic.c']]],
+  ['storage_5fpath_5finit_7',['storage_path_init',['../storage__path_8h.html#a5d3803f449730e82990045a81613b014',1,'storage_path.c']]]
 ];

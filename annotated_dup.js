@@ -12,7 +12,6 @@ var annotated_dup =
     [ "MenuRuntime", "structMenuRuntime.html", "structMenuRuntime" ],
     [ "Point", "structPoint.html", "structPoint" ],
     [ "Point_list", "structPoint__list.html", "structPoint__list" ],
-    [ "RGB", "structRGB.html", "structRGB" ],
     [ "Segmented_entity", "structSegmented__entity.html", "structSegmented__entity" ],
     [ "snake_runtime", "structsnake__runtime.html", "structsnake__runtime" ],
     [ "tron_runtime", "structtron__runtime.html", "structtron__runtime" ]

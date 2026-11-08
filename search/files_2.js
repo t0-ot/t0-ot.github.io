@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['input_2eh_0',['input.h',['../input_8h.html',1,'']]]
+  ['highscore_2eh_0',['highscore.h',['../highscore_8h.html',1,'']]]
 ];

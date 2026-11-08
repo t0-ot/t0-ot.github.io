@@ -6,5 +6,8 @@ var searchData=
   ['handlemilestonefruit_3',['handleMilestoneFruit',['../snake__logic_8h.html#af86497956db720e919fbf72909f7ccd1',1,'snake_logic.c']]],
   ['has_5fbuffered_5fdir_4',['has_buffered_dir',['../structtron__runtime.html#a3138862658649233196272656e965301',1,'tron_runtime']]],
   ['highlighted_5fchoice_5',['highlighted_choice',['../structMenuRuntime.html#a90b12f33e44e807362c3d7822f6b61af',1,'MenuRuntime']]],
-  ['hiscorecounter_6',['hiScoreCounter',['../snake__logic_8h.html#addb3389661b458887b3022e10a4232dd',1,'snake_logic.c']]]
+  ['highscore_2eh_6',['highscore.h',['../highscore_8h.html',1,'']]],
+  ['highscore_5fload_7',['highscore_load',['../highscore_8h.html#a0acab8305fe4b97a16688b5550965f54',1,'highscore.c']]],
+  ['highscore_5fsave_8',['highscore_save',['../highscore_8h.html#aebc604e7a9ef040042975dfe00829ac3',1,'highscore.c']]],
+  ['hiscorecounter_9',['hiScoreCounter',['../snake__logic_8h.html#addb3389661b458887b3022e10a4232dd',1,'snake_logic.c']]]
 ];
